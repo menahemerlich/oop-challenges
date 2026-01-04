@@ -15,7 +15,7 @@ const bank = new Bank()
 bank.addAccount(new BankAccount("Avi", 1500))
 bank.addAccount(new BankAccount("Dana", 1500))
 bank.showBalances()
-bank.transfer("Avi", "Dana", 300)
+bank.transfer("Avi", "Dana", 2300)
 bank.showBalances()
 
 
